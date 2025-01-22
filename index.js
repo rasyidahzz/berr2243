@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 4000;
 const { MongoClient, ServerApiVersion } = require('mongodb');
 const uri = "mongodb+srv://b122310195:<db_password>@cluster0.v7wqd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 const bcrypt = require('bcrypt');
